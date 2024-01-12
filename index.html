@@ -16,65 +16,65 @@
 
     <section class="calculator-body">
 
-        <div class="screen" id="screen"></div>
+        <input type="text"class="screen" id="screen">
 
         <div class="btn-1">
         
-            <button class="r-1"><span class="green">%</span></button>
+            <button class="r-1"><span class="green white" onclick="num7('%')">%</span></button>
             
-            <button class="r-1"><span class="green">CE</span></button>
+            <button class="r-1"><span class="green white" onclick="numRemove()">CE</span></button>
             
-            <button class="r-1"><span class="green">C</span></button>
-            
-            <button class="r-1"><i class="fa-regular fa-circle-xmark green"></i></button>
+            <button class="r-1"><span class="green white" onclick="num7('')">C</span></button>
+            <button class="r-1" onclick="num7('/')"><span class="green white">÷</span></button>
+            <!-- <button class="r-1 white"><i class="fa-regular fa-circle-xmark green"></i></button> -->
 
         </div>
 
         <div class="btn-1">
         
-            <button class="r-1">7</button>
+            <button class="r-1" onclick="num7('7')">7</button>
             
-            <button class="r-1">8</button>
+            <button class="r-1" onclick="num7('8')">8</button>
             
-            <button class="r-1">9</button>
+            <button class="r-1" onclick="num7('9')">9</button>
+            <button class="r-1" onclick="num7('*')"><span class="green white">x</span></button>
+            <!-- <button class="r-1" onclick="num7('/')"><span class="green white">÷</span></button> -->
+  
+        </div>
+
+        <div class="btn-1">
+        
+            <button class="r-1" onclick="num7('4')">4</button>
             
-            <button class="r-1"><span class="green">÷</span></button>
+            <button class="r-1" onclick="num7('5')">5</button>
+            
+            <button class="r-1" onclick="num7('6')">6</button>
+            <button class="r-1" onclick="num7('-')"><span class="green white">-</span></button>
+            <!-- <button class="r-1" onclick="num7('*')"><span class="green white">x</span></button> -->
 
         </div>
 
         <div class="btn-1">
         
-            <button class="r-1">4</button>
+            <button class="r-1" onclick="num7('1')">1</button>
             
-            <button class="r-1">5</button>
+            <button class="r-1" onclick="num7('2')">2</button>
             
-            <button class="r-1">6</button>
-            
-            <button class="r-1"><span class="green">x</span></button>
+            <button class="r-1" onclick="num7('3')">3</button>
+            <button class="r-1" onclick="num7('+')"><span class="green white">+</span></button>
+            <!-- <button class="r-1" onclick="num7('-')"><span class="green white">-</span></button> -->
 
         </div>
 
         <div class="btn-1">
         
-            <button class="r-1">1</button>
+            <button class="r-1" onclick="num7('0')">0</button>
             
-            <button class="r-1">2</button>
+            <button class="r-1" onclick="num7('.')">.</button>
             
-            <button class="r-1">3</button>
+            <button class="r-1 equal" onclick="cal()"><span class="green white">=</span></button>
             
-            <button class="r-1"><span class="green">-</span></button>
-
-        </div>
-
-        <div class="btn-1">
-        
-            <button class="r-1">0</button>
-            
-            <button class="r-1">.</button>
-            
-            <button class="r-1"><span class="green">=</span></button>
-            
-            <button class="r-1"><span class="green">+</span></button>
+            <!-- <button class="r-1" onclick="num7('+')"><span class="green white">+</span></button> -->
 
         </div>
   

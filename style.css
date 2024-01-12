@@ -12,6 +12,7 @@ body{
     background-size: cover; */
     background-color: #46537c;
 }
+
 .heading{
     width: 100%;
     margin-top: 20px;
@@ -94,6 +95,7 @@ body{
 input{
     color: white;
     font-size: 2rem;
+    
 }
 .green{
     color: rgb(21, 158, 21);

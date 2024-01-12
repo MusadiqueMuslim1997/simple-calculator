@@ -5,16 +5,21 @@
     font-family: sans-serif;
 }
 body{
-    /* background-image: url("images/bg.jpg"); */
+    /* background-image: url("images/cals.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: #46537c;
 }
 .heading{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bolder;
     
 }
@@ -27,7 +32,7 @@ body{
 .calculator{
     width: 100%;
     /* height: 100vh; */
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;

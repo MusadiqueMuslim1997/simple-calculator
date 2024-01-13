@@ -1,8 +1,6 @@
-
-
-var opretor = document.getElementById("plus")
-
 var display = document.getElementById("screen");
+
+
 function numRemove(){
 
    display.value = "";

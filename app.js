@@ -1,6 +1,6 @@
 
-var operator = ["+", "-", "*", "/"];
 
+var opretor = document.getElementById("plus")
 
 var display = document.getElementById("screen");
 function numRemove(){
@@ -10,74 +10,90 @@ function numRemove(){
 }
 
 function numPer(){
-   display.value += "%"; 
+   value = "%"
+   display.value += value;  
 }
 
 function numDivide(){
-   display.value += "/"; 
+   value = "/"
+   display.value += value;  
 }
 
 function num7(){
-   display.value += "7"; 
+   value = "7"
+   display.value += value;  
 }
 
 function num8(){
-   display.value += "8"; 
+   value = "8"
+   display.value += value;  
 }
 
 
 function num9(){
-   display.value += "9"; 
+   value = "9"
+   display.value += value;  
 }
 
 
 function numMul(){
-   display.value += "*"; 
+   value = "*"
+   display.value += value; 
 }
 
 function num4(){
-   display.value += "4"; 
+   value = "4"
+   display.value += value; 
 }
 
 function num5(){
-   display.value += "5"; 
+   value = "5"
+   display.value += value; 
 }
 
 function num6(){
-   display.value += "6"; 
+   value = "6"
+   display.value += value; 
 }
 
 function numMinus(){
-   display.value += "-"; 
+   value = "-"
+   display.value += value; 
 }
 
 function num1(){
-   display.value += "1"; 
+
+   value = "1"
+   display.value += value; 
 }
 
 function num2(){
-   display.value += "2"; 
+   value = "2"
+   display.value += value; 
 }
 
 function num3(){
-   display.value += "3"; 
+   value = "3"
+   display.value += value; 
 }
 
 function numAdd(){
-   display.value += "+"; 
+   value = "+"
+   display.value += value; 
 }
 
 function num0(){
-   display.value += "0"; 
+   value = "0"
+   display.value += value; 
 }
 
 function numPoint(){
-   display.value += "."; 
+   value = "."
+   display.value += value; 
 }
 
-function cal(){
-   if(operator === numAdd){
-    display.value = display.value + display.value;    
- 
-   }
+function calulation(){
+  
+   display.value = eval(display.value);
+   
 }

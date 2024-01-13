@@ -4,14 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
-    /* background-image: url("images/cals.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
-    background-color: #46537c;
-}
+
 
 .heading{
     width: 100%;
@@ -62,7 +55,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: right;
-    background-color: rgb(26, 25, 25);
+    background-color: black;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 5px;
 }

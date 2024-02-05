@@ -114,7 +114,7 @@ input {
     color: rgb(21, 158, 21);
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:400px) {
     .calculator-body {
         width: 320px;
     }
@@ -130,7 +130,7 @@ input {
 
 }
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: gold;
     text-shadow: 1px 1px silver;
 }

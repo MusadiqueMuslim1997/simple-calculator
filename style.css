@@ -16,9 +16,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2rem;
+
     font-weight: bolder;
 
+}
+
+.heading>h1 {
+    font-size: 3rem;
+    color: gold;
+    text-shadow: 5px 5px silver;
 }
 
 .red {
@@ -26,7 +32,7 @@
 }
 
 .silver {
-    color:  green;
+    color: green;
 }
 
 .calculator {
@@ -112,9 +118,19 @@ input {
     .calculator-body {
         width: 320px;
     }
+    .heading>h1 {
+        font-size: 2rem;
+        color: gold;
+        text-shadow: 3px 3px silver;
+    }
 }
 
 .r-1:active {
     background-color: green;
 
+}
+h3 {
+    font-size: 1.2rem;
+    color: gold;
+    text-shadow: 1px 1px silver;
 }
